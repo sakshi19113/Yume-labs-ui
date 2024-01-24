@@ -1,0 +1,13 @@
+.container {
+  height: calc(100vh - 96px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #f9e8ea, #e8f4f9);;
+}
+
+.comingSoon {
+  font-size: 60px;
+  color: rgb(24, 20, 20);
+  font-weight: 900;
+}

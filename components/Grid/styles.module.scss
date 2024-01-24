@@ -1,0 +1,27 @@
+.gridView {
+  padding: 120px 9.5%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 12px;
+}
+
+.gridView > div {
+  height: 100px;
+  background-color: #f5f5f5;
+  opacity: 0.5;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .gridView {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .gridView > div {
+    height: 55px;
+  }
+
+  .gridViewMobile {
+    display: none;
+  }
+}

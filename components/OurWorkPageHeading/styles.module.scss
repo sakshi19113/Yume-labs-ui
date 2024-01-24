@@ -1,0 +1,156 @@
+.yumeLabsMainHeading {
+  padding: 80px 9.5% 60px 9.5%;
+  margin-top: 50px;
+  overflow-x: hidden;
+}
+
+.topSectionGrid {
+  filter: brightness(0.1);
+  height: 0;
+  position: relative;
+  z-index: 0;
+  top: -60px;
+  left: -206px;
+}
+
+.topSectionGrid img {
+  height: 299px;
+  transform: scale(0.96, 1.3);
+}
+
+.topSectionGridTwo {
+  display: none;
+}
+
+.yumeLabsMainHeading > .yumeLabsMainHeadingLeft {
+  max-width: 40%;
+}
+
+.yumeLabsMainHeading > .yumeLabsMainHeadingRight {
+  max-width: 63%;
+}
+
+.yumeLabsMainHeadingLeft h1 {
+  margin-bottom: 29px;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 75px;
+  font-family: "Poppins", sans-serif;
+  max-width: 80%;
+  position: relative;
+  top: 5px;
+}
+
+.yumeLabsMainHeadingLeft span {
+  max-width: 30%;
+  display: block;
+  background-color: #253f9c;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -13px;
+  margin-bottom: 10px;
+}
+
+.yumeLabsMainHeadingLeft span:nth-child(2) {
+  display: none;
+}
+
+.yumeLabsMainHeadingRight p {
+  font-size: 18px;
+  color: #7b7b7b;
+  font-weight: bold;
+  margin-top: -25px;
+}
+
+.yumeLabsMainHeadingRight p:nth-child(2) {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .yumeLabsMainHeading {
+    flex-direction: column;
+    row-gap: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: -30px;
+    padding: 80px 9.5% 100px 9.5%;
+  }
+  .topSectionGrid {
+    display: none;
+  }
+  .topSectionGridTwo {
+    display: block;
+    filter: brightness(0.1);
+    height: 0;
+    position: relative;
+    z-index: 0;
+    top: 79px;
+    left: -417px;
+  }
+
+  .topSectionGridTwo img {
+    height: 306px;
+    transform: scale(0.96, 1.8);
+  }
+
+  .yumeLabsMainHeading > .yumeLabsMainHeadingLeft {
+    max-width: 100%;
+  }
+
+  .yumeLabsMainHeadingLeft span:nth-child(1) {
+    display: none;
+  }
+
+  .yumeLabsMainHeadingLeft span:nth-child(2) {
+    display: block;
+    position: relative;
+    top: 73px;
+  }
+
+  .yumeLabsMainHeading > div {
+    flex: 100%;
+  }
+
+  .yumeLabsMainHeadingLeft h1 {
+    margin-top: 87px;
+    font-size: 46px;
+    line-height: 55px;
+    top: 0px;
+  }
+
+  .yumeLabsMainHeading > .yumeLabsMainHeadingRight {
+    max-width: 100%;
+  }
+
+  .yumeLabsMainHeadingLeft span {
+    max-width: 50%;
+  }
+
+  .yumeLabsMainHeadingRight p {
+    max-width: 85%;
+    font-size: 17px;
+  }
+
+  .yumeLabsMainHeadingRight p:nth-child(1) {
+    display: none;
+  }
+
+  .yumeLabsMainHeadingRight p:nth-child(2) {
+    display: block;
+    max-width: 300px;
+    margin-top: 52.5px;
+  }
+
+  .background-gradient {
+    top: 100px;
+    right: -338px;
+    transform: rotate(-362deg);
+    width: 780px;
+    height: 249px;
+  }
+}

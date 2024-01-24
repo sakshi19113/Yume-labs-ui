@@ -1,0 +1,363 @@
+.productDesign {
+  padding: 97px 9.5%;
+}
+
+.productDesign__heading span {
+  background-color: #253f9c;
+  color: white;
+  padding: 1px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.productDesign__heading hr {
+  border-color: rgb(199, 178, 178);
+  opacity: 0.4;
+  margin-top: -1px;
+}
+
+.productDesign__heading > :nth-child(2) {
+  display: none;
+}
+
+.productDesign__heading div {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+  gap: 3%;
+}
+
+.productDesign__heading h2 {
+  font-size: 33px;
+  font-weight: 600;
+  max-width: 340px;
+  line-height: 36px;
+}
+
+.productDesign__heading p {
+  color: #7b7b7b;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  max-width: 775px;
+  font-size: 19.5px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.productDesign__maiven {
+  display: flex;
+  gap: 2%;
+  margin: 200px 0;
+}
+
+.productDesign__maiven__container {
+  flex-basis: 32%;
+  height: 420px;
+  background-color: rgb(248, 244, 237);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.productDesign__maiven__containerImage {
+  height: 230px;
+  background-color: rgb(158, 108, 246);
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.productDesign__maiven__containerContent {
+  padding: 30px;
+  max-width: 330px;
+}
+
+.productDesign__maiven__containerContent h2 {
+  font-family: Roboto;
+}
+
+.productDesign__yumeLabs__line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 100px;
+}
+
+.productDesign__yumeLabs__line__left {
+  display: flex;
+  font-size: 24px;
+}
+
+.productDesign__yumeLabs__line__left p {
+  height: 36px;
+  width: 2px;
+  margin-right: 5px;
+  background-color: black;
+  transform: rotate(20deg);
+  margin-top: 7px;
+}
+
+.productDesign__yumeLabs__line__right {
+  background-color: #ddd;
+  flex: 1;
+  height: 2px;
+}
+
+.productDesign__yumeLabs__content h2 {
+  max-width: 520px;
+  font-size: 31.5px;
+}
+
+.productDesign__yumeLabs__content p {
+  max-width: 510px;
+  color: #7b7b7b;
+  font-size: 19px;
+  margin: 30px 0;
+  font-family: Roboto;
+  font-weight: bold;
+}
+
+.productDesign__yumeLabs__images {
+  margin: 100px 0;
+}
+
+.productDesign__yumeLabs__imagesTop {
+  display: flex;
+  gap: 10px;
+}
+
+.productDesign__yumeLabs__imagesTopL,
+.productDesign__yumeLabs__imagesTopR {
+  flex-basis: 50%;
+}
+
+.productDesign__yumeLabs__imagesTopL img,
+.productDesign__yumeLabs__imagesTopR img {
+  height: 450px;
+  width: 100%;
+}
+
+.productDesign__yumeLabs__imagesBottom {
+  position: relative;
+}
+
+.Radial__Background {
+  width: 100%;
+  height: 100%;
+  margin-top: 8px;
+}
+
+.insideRadial__Background {
+  width: 70%;
+  background-color: #fff;
+  height: 80%;
+  position: absolute;
+  bottom: 5px;
+  right: 80px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.insideRadial__BackgroundTwo {
+  width: 70%;
+  background-color: #fff;
+  height: 60%;
+  position: absolute;
+  bottom: 5px;
+  right: 230px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  box-shadow: 1px -1px 12px #e3e0e0;
+}
+
+.customer__section {
+  display: flex;
+  justify-content: center;
+  margin: 200px 0 100px;
+}
+
+.customer__thought {
+  display: flex;
+  gap: 40px;
+}
+
+.customer__thought__quote img {
+  height: 30px;
+  width: 35px;
+}
+
+.customer__thought__para {
+  max-width: 850px;
+  color: #0b1226;
+  font-size: 28px;
+  opacity: 0.6;
+  font-style: italic;
+  line-height: 37px;
+}
+
+.aboutCustomer {
+  display: flex;
+  gap: 40px;
+  margin: 80px;
+}
+
+.customer__image {
+  display: flex;
+  position: relative;
+}
+
+.customer__details {
+  margin-top: 12px;
+}
+
+.man__image {
+  position: absolute;
+  top: 16px;
+  right: -15px;
+}
+
+.man__image img {
+  height: 90px;
+  width: 90px;
+}
+
+.customer__name {
+  font-size: 22px;
+  color: #0b1226;
+  font-weight: 800;
+  font-family: Poppins;
+}
+
+.customer__designation {
+  display: block;
+  max-width: 200px;
+  font-size: 19px;
+  color: #696969;
+  margin-top: 6px;
+  font-family: Roboto;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.maivens__image {
+  margin-bottom: 130px;
+}
+
+.maivens__image img {
+  width: 100%;
+  height: 700px;
+}
+
+@media screen and (max-width: 768px) {
+  .project__container {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .project__content img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .project__content p {
+    width: 65%;
+  }
+
+  .productDesign {
+    margin-top: 380px;
+  }
+
+  .productDesign__heading > :first-child {
+    display: none;
+  }
+
+  .productDesign__heading > :nth-child(2) {
+    display: inline-block;
+  }
+
+  .productDesign__heading div {
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .productDesign__heading p {
+    margin: 40px 0;
+    font-size: 21px;
+  }
+
+  .productDesign__maiven {
+    flex-direction: column;
+  }
+
+  .productDesign__maiven__container {
+    margin-bottom: 70px;
+  }
+
+  .productDesign__yumeLabs__line {
+    margin-bottom: 30px;
+  }
+
+  .productDesign_yumeLabs_content p {
+    padding-right: 50px;
+  }
+
+  .productDesign__yumeLabs__imagesTop {
+    flex-direction: column;
+  }
+
+  .productDesign__yumeLabs__imagesTopL img,
+  .productDesign__yumeLabs__imagesTopR img {
+    height: 300px;
+  }
+
+  .productDesign__yumeLabs__imagesBottom {
+    height: 600px;
+  }
+
+  .Radial__Background {
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .insideRadial__Background {
+    width: 68%;
+    height: 55%;
+    right: 1px;
+    top: 100px;
+    border-top-right-radius: 0;
+  }
+
+  .insideRadial__BackgroundTwo {
+    width: 90%;
+    height: 40%;
+    right: 1px;
+    bottom: 100px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+  }
+
+  .customer__thought {
+    flex-direction: column;
+  }
+
+  .customer_thought_para {
+    font-size: 24px;
+    max-width: 290px;
+  }
+
+  .maivens__image img {
+    object-fit: cover;
+  }
+
+  .aboutCustomer {
+    margin: 80px 0;
+  }
+
+  .customer__name {
+    font-size: 18px;
+  }
+
+  .customer__designation {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,254 @@
+@use "@styles/theme" as *;
+
+.innovationMarketingContainer {
+  display: flex;
+  gap: 16px;
+  margin-top: 180px;
+  margin-bottom: 181px;
+  overflow: hidden;
+  padding: 0 9.5%;
+}
+
+.innovationMarketingContainer > div {
+  flex-basis: 33.33%;
+}
+
+.innovationMarketingHeading {
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  align-items: center;
+}
+
+.innovationMarketingHeading h3 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 600;
+  color: #272727;
+  padding-top: 70px;
+  max-width: 64%;
+}
+
+.innovationMarketingHeading p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  color: #696969;
+  opacity: 1;
+  padding-left: 4px;
+  margin-bottom: 96px;
+  max-width: 67%;
+}
+
+.innovationMarketingHeadingMobile {
+  display: none;
+}
+
+.innovationExploreOurService button {
+  border-radius: 32px;
+  background-color: $lightBlue-white;
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  padding: 8px 8px 8px 71px;
+}
+
+.innovationExploreOurService button:hover {
+  background: linear-gradient(to right, $lightBlue-white, $pink-lighter);
+  cursor: pointer;
+}
+
+.innovationExploreOurService span:nth-of-type(2) {
+  display: none;
+}
+
+.innovationExploreOurService span {
+  font-weight: 600;
+  color: $blue-primary;
+  white-space: nowrap;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Poppins";
+  position: relative;
+  left: -14px;
+}
+
+.innovationExploreOurService div {
+  border-radius: 50%;
+  background-color: $blue-secondary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px;
+  height: 60px;
+  width: 60px;
+}
+
+.innovationExploreOurService button:hover div img {
+  transition: all 200ms linear;
+  transform: translateX(2px);
+}
+
+.innovationExploreOurService:hover div {
+  background: linear-gradient(to right, $pink-primary, $blue-secondary);
+}
+
+.productIndustrial {
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+}
+
+.productIndustrial > div {
+  width: 100%;
+  height: 50%;
+}
+
+.productCart,
+.industrialCart {
+  background-color: #f7f7f7;
+  position: relative;
+  border-radius: 12px;
+}
+
+.uxCart {
+  background-color: #e5c090;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.productCart img,
+.industrialCart img,
+.uxCart img {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+
+.productCart h2,
+.industrialCart h2,
+.uxCart h2 {
+  position: absolute;
+  margin-left: 30px;
+  bottom: 30px;
+  font-size: 18px;
+  color: #0b1226;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: left;
+  opacity: 0.6;
+}
+
+.uxCart h2 {
+  color: white;
+  opacity: 1;
+}
+
+.uxCart img {
+  transform: scale(1.1, 0.7);
+  position: relative;
+  left: 15%;
+}
+
+@media screen and (max-width: 768px) {
+  .innovationMarketingContainer > div {
+    flex-basis: 100%;
+  }
+
+  .innovationMarketingHeading h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46px;
+  }
+
+  .innovationMarketingContainer {
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
+  .innovationExploreOurService {
+    margin-bottom: 40px;
+  }
+
+  .innovationExploreOurService div {
+    height: 50px;
+    width: 50px;
+  }
+
+  .innovationExploreOurService span:nth-of-type(2) {
+    display: block;
+    font-size: 15px;
+    position: static;
+  }
+
+  .innovationExploreOurService span:nth-of-type(1) {
+    display: none;
+  }
+
+  .innovationMarketingHeading p:nth-of-type(2) {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .innovationMarketingHeading p:nth-of-type(1) {
+    display: none;
+  }
+
+  .productIndustrial {
+    flex-direction: row;
+    column-gap: 12px;
+  }
+
+  .productCart img,
+  .industrialCart img {
+    height: 304px;
+    object-fit: cover;
+  }
+
+  .productCart h2,
+  .industrialCart h2,
+  .uxCart h2 {
+    text-align: center;
+    margin-left: 0px;
+    font-size: 16px;
+  }
+
+  .productCart h2 {
+    color: #000000;
+    opacity: 0.4;
+  }
+
+  .industrialCart h2 {
+    color: #fff;
+    opacity: 0.4;
+  }
+
+  .uxCart h2 {
+    opacity: 0.7;
+  }
+
+  .uxCart img {
+    transform: initial;
+    position: static;
+  }
+
+  .innovationExploreOurService button {
+    padding: 8px 8px 8px 26px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .innovationMarketingHeading h3 {
+    font-size: 30px;
+    max-width: 80%;
+  }
+
+  .innovationMarketingHeading p {
+    font-size: 20px;
+    max-width: 80%;
+  }
+}

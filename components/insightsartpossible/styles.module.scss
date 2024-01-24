@@ -1,0 +1,134 @@
+.artOfPossibleSection {
+  padding: 90px 9.5%;
+}
+
+.newsImgContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.newImageSection {
+  display: flex;
+  column-gap: 12%;
+  height: 343.5px;
+}
+
+.newsTechImg {
+  flex-basis: 40%;
+}
+
+.newsTechImg img {
+  width: 100%;
+  height: auto;
+  background-color: #e7e7fc;
+  border-radius: 15px;
+}
+
+.newsTechImg img {
+  background-size: cover;
+  padding-left: 25px;
+}
+
+.newsImgContainerText {
+  flex-basis: 58%;
+}
+
+.newsImgContainerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 15px;
+}
+
+.newsImgContainerText span {
+  font-size: 18px;
+  color: #7b7b7b;
+  opacity: 1;
+}
+
+.newsImgContainerText p {
+  color: #000000;
+  font-size: 31px;
+  line-height: 40px;
+  font-weight: 600;
+  opacity: 0.9;
+  max-width: 96%;
+}
+
+.allServiceButton {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.allServiceBtnContainer {
+  width: 200px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  border-radius: 32px;
+  background-color: #f4f8ff;
+}
+
+.allServiceBtnContainer:hover {
+  background: linear-gradient(to right, #f4f8ff, #ffeaf1);
+  cursor: pointer;
+}
+
+.allServiceBtnContainer span {
+  color: #253f9c;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .newsImgContainer {
+    flex-wrap: nowrap;
+    row-gap: 25px;
+  }
+
+  .newImageSection {
+    row-gap: 20px;
+    padding: 20px 0px;
+  }
+
+  .newsTechImg {
+    width: auto;
+    background-position: center;
+  }
+
+  .newsTechImg img {
+    border-radius: 6px;
+  }
+
+  .newsImgContainer::-webkit-scrollbar {
+    height: 0px;
+  }
+
+  .newsImgContainer > div {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .newsImgContainerText span {
+    font-size: 16px;
+  }
+
+  .newsImgContainerText p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .allServiceBtnContainer {
+    width: 180px;
+    padding: 15px;
+  }
+
+  .allServiceBtnContainer span {
+    font-size: 16px;
+  }
+}

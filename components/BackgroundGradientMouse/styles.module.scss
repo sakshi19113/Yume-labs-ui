@@ -1,0 +1,12 @@
+.balls {
+    position: "fixed";
+    top: 0;
+    left: 0;
+    width: "400px";
+    height: "400px";
+    border-radius: "50%";
+    z-index: -1;
+    background: linear-gradient(90deg,
+            rgba(214, 202, 255, 1) 0%, rgba(204, 209, 245, 1) 40%, rgba(230, 200, 230, 1) 60%);
+    filter: "blur(30px)"l
+}

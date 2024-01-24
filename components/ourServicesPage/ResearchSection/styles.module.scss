@@ -1,0 +1,195 @@
+.wrapper {
+  padding: 50px 9.5% 100px;
+}
+
+.researchSection {
+  display: flex;
+  column-gap: 50px;
+}
+
+.researchSectionLeft {
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 38px;
+}
+
+.researchSectionLeft h2 {
+  font-size: 43px;
+}
+
+.researchSectionLeft p {
+  font-size: 18px;
+  color: #7b7b7b;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-right: 20px;
+  margin-top: -20px;
+  width: 290px;
+}
+
+.researchSectionRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+
+.researchDropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.researchDropdownMob{
+  display: none;
+}
+
+.researchDropdown h4 {
+  color: #7b7b7b;
+  font-size: 17px;
+}
+
+.researchDropdown img {
+  width: 20px;
+  height: 12px;
+}
+
+.researchHeroSection {
+  flex-wrap: nowrap;
+  margin-top: 89.5px;
+  margin-left: 37%;
+  margin-bottom: 105px;
+  display: flex;
+  column-gap: 14px;
+  overflow-x: scroll;
+}
+
+.researchHeroSection::-webkit-scrollbar {
+  height: 0;
+}
+
+.researchHeroSectionRight img {
+  width: 480px;
+  height: 261px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.horizontalLine{
+  opacity: 0.2;
+}
+
+.researchHeroImgContainer {
+  padding: 10px 0px;
+}
+
+.researchHeroImgUi,
+.researchHeroImgDev {
+  color: #253f9c;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.researchHeroImgDev {
+  margin-left: 50px;
+}
+
+.simplicontractUxUiText {
+  display: none;
+}
+
+.researchHeroImgHead {
+  font-size: 36px;
+}
+
+.researchHeroImgPara {
+  color: #7b7b7b;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+  max-width: 390px;
+  padding-top: 12px;
+  opacity: 0.8;
+  letter-spacing: 0.3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .researchSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .researchSectionLeft h2 {
+    font-size: 36px;
+  }  
+
+  .researchSectionLeft p {
+    font-size: 17px;
+    padding-right: 0px;
+    width: 280px;
+  }
+
+  .researchDropdown h4 {
+    font-size: 17px;
+  }
+
+  .researchDropdownMob{
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .researchDropdownMob h4{
+    color: #7B7B7B;
+    font-size: 17px;
+  }
+  
+  .researchDropdownMob img{
+    width: 20px;
+    height: 12px;
+  }
+
+  .researchDropdown img {
+    width: 18px;
+    height: 12px;
+  }
+
+  .researchHeroSection {
+    margin-left: 0;
+  }
+
+  .researchHeroSectionRight img {
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .researchSectionRight {
+    margin-top: 100px;
+  }
+
+  .researchHeroImgContainer {
+    display: none;
+  }
+
+  .simplicontractUxUiText {
+    color: #253f9c;
+    display: flex;
+    column-gap: 20px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .researchHeroImgHead {
+    font-size: 26px;
+  }
+
+  .researchHeroImgPara {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 230px;
+    padding-top: 12px;
+  }
+}

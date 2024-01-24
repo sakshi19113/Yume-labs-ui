@@ -1,0 +1,113 @@
+.heroImageContainer {
+  margin: 0px 9.5%;
+  background-image: url("../../public/images/webp/HeroImage.webp");
+  background-repeat: no-repeat;
+  background-position: 3% 12%;
+  height: 875px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.heroImageContainerContent {
+  width: 80%;
+  display: flex;
+  padding-bottom: 90px;
+}
+
+.heroImageContainerContent > div {
+  flex-basis: 50%;
+}
+
+.heroImageContainerLeft {
+  font-size: 63px;
+  font-style: italic;
+  color: white;
+  font-family: "DM Serif Display", serif;
+}
+
+.heroImageContainerLeft p {
+  margin: 0;
+}
+
+.heroImageContainerRight {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 35px;
+  color: #253f9c;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Poppins;
+  margin-top:80px ;
+}
+
+.playShowreelButton {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0a66ec;
+  border-radius: 50%;
+}
+
+.playShowreelButton:hover {
+  background: linear-gradient(to right, #f46997, #0a66ec);
+}
+
+.playShowreelButton img {
+  height: 20px;
+  width: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .heroImageContainer {
+    height: 638px;
+    background-position: 31% 57%;
+  }
+
+  .heroImageContainerContent {
+    flex-direction: column-reverse;
+    padding-bottom: 100px;
+    row-gap: 60px;
+  }
+
+  .heroImageContainerContent > div {
+    flex-basis: 100%;
+  }
+
+  .heroImageContainerLeft {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .heroImageContainerLeft p {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  .heroImageContainerRight {
+    justify-content: center;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .heroImageContainerRight span {
+    display: none;
+  }
+
+  .playShowreelButton{
+    width:70px;
+    height:70px;
+    position: relative;
+    bottom: 30px;
+  }
+
+  .playShowreelButton img{
+    width:10px;
+    height:20px;
+  }
+}

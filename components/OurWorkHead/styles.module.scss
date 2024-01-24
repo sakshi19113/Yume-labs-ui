@@ -1,0 +1,73 @@
+.yumeLabsMainHeading {
+  padding: 100px 9.5%;
+  margin-top: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.topSectionGrid {
+  filter: brightness(0.1);
+  height: 0;
+  position: relative;
+  z-index: 0;
+  top: -83px;
+  left: -177px;
+}
+
+.topSectionGrid img {
+  height: 299px;
+  opacity: 0.5;
+}
+
+.yumeLabsMainHeadingLeft span {
+  display: block;
+  background-color: #253f9c;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: -16px;
+  position: relative;
+  bottom: 4px;
+  left: 3px;
+  max-width: 198px;
+}
+
+.yumeLabsMainHeading h2 {
+  font-size: 43px;
+  font-weight: bold;
+  max-width: 910px;
+  line-height: 59px;
+  margin-top: -3px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .topSectionGrid {
+    top: -80px;
+    left: -178px;
+  }
+
+  .yumeLabsMainHeadingLeft span {
+    max-width: 125px;
+    font-size: 16px;
+    padding: 8.3px 8px;
+    position: relative;
+    top: -9px;
+    left: 2px;
+  }
+
+  .yumeLabsMainHeading h2 {
+    font-size: 33px;
+    line-height: 54px;
+    margin-top: 0px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 0px;
+    position: relative;
+    top: 10px;
+  }
+}

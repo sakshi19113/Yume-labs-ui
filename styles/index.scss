@@ -1,0 +1,37 @@
+@import "base";
+@import "theme";
+
+.backgroundGradient {
+  width: 461px;
+  height: 800px;
+  position: fixed;
+  top: -56px;
+  right: 76px;
+  z-index: -1;
+  transform: rotate(-288deg);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 40%;
+  opacity: 0.9;
+  filter: blur(54px);
+  background: linear-gradient(
+    to top,
+    #fffefe 0%,
+    rgba(253, 244, 245, 1) 0%,
+    rgba(254, 234, 239, 1) 26%,
+    rgba(236, 205, 220, 1) 58%,
+    rgb(219 210 240) 71%,
+    rgb(167 187 238) 100%,
+    #fefefe 100%
+  );
+}
+
+@media screen and (max-width: 768px) {
+  .backgroundGradient {
+    top: -14px;
+    right: 29px;
+    transform: rotate(-279deg);
+    width: 250px;
+    height: 599px;
+    z-index: -6;
+  }
+}

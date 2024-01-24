@@ -1,0 +1,150 @@
+.customerContainer {
+  margin-top: 200px;
+  display: flex;
+  gap: 175px;
+  padding: 0px 2% 0px 9.5%;
+}
+
+.customersDetailsContainer {
+  flex-basis: 65%;
+}
+
+.customersDetails {
+  display: flex;
+  gap: 35px;
+  margin-top: 70px;
+}
+
+.customerDetailsIcon img {
+  width: 40px;
+  height: 35px;
+}
+
+.customerThoughts h3 {
+  max-width: 450px;
+  font-size: 24px;
+  font-style: italic;
+  font-family: Roboto;
+  color: #0b1226;
+  opacity: 0.5;
+  letter-spacing: 0.5px;  
+}
+
+.aboutCustomer {
+  display: flex;
+  padding: 70px 0 0 60px;
+}
+
+.customerImage {
+  position: relative;
+  top: -18px;
+}
+
+.customerImage img {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 0;
+  right: 28px;
+  border-radius: 50%;
+}
+
+.gradient {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-right: 9px;
+  margin-top: 5px;
+  background-image: url("../../../public/images/webp/Ellipse\ 11.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: -20px;
+  top: -5px;
+}
+
+.manImage {
+  margin-top: 20px;
+}
+
+.customerId {
+  margin: 10px 20px;
+}
+
+#customerName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0b1226;
+}
+
+#customerDesignnation {
+  display: block;
+  max-width: 200px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #696969;
+  margin-top: 10px;
+}
+
+.customersDetailsSideTextContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.customersDetailsSideTextContainer p {
+  margin-top: 50px;
+  font-size: 17px;
+  color: #707070;
+  max-width: 75%;
+  font-family: Helvetica;
+}
+
+@media screen and (max-width: 768px) {
+  .customerContainer {
+    margin-top: 100px;
+  }
+
+  .customersDetailsContainer {
+    flex-basis: 100%;
+  } 
+
+  .customersDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  
+  .customerImage {
+    top: -9px;
+  }
+
+  .gradient {
+    width: 128px;
+    height: 107px;
+    position: static;
+  }
+
+  .customerImage img {
+    width: 75px;
+    height: 80px;
+  }
+
+  .customerDetailsIcon img {
+    width: 30px;
+    height: 25px;
+  }
+
+  .customerThoughts h3 {
+    font-size: 20px;
+    max-width: 350px;
+  }
+
+  .customersDetailsSideTextContainer {
+    display: none;
+  }
+  
+  .aboutCustomer {
+    padding: 60px 0;
+  }
+}

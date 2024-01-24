@@ -1,0 +1,182 @@
+.yumeLabsMainHeading {
+  padding: 96px 9.5%;
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+
+.topSectionGrid {
+  filter: brightness(0.1);
+  height: 0;
+  position: relative;
+  z-index: 0;
+  top: -60px;
+  left: -206px;
+}
+
+.topSectionGridMobile {
+  display: none;
+}
+
+.topSectionGrid img {
+  height: 306px;
+  transform: scale(0.96, 1.3);
+}
+
+.yumeLabsMainHeadingLeft h1:nth-of-type(1) {
+  margin-bottom: 29px;
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  max-width: 80%;
+  line-height: 77px;
+  margin-top: 18px;
+}
+
+.yumeLabsMainHeadingLeft h1:nth-of-type(2) {
+  display: none;
+}
+
+.yumeLabsMainHeadingLeft span {
+  max-width: 192px;
+  display: block;
+  background-color: #253f9c;
+  color: white;
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
+  font-size: 24px;
+  margin-top: -18px;
+}
+
+.yumeLabsMainHeadingLeft span:nth-of-type(2) {
+  display: none;
+}
+
+.yumeLabsMainHeadingRight p {
+  max-width: 62%;
+  font-size: 16.2px;
+  color: #555555;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.yumeLabsMainHeadingRight p:nth-of-type(2) {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .topSectionGrid {
+    display: none;
+  }
+
+  .topSectionGridMobile {
+    display: block;
+    filter: brightness(0.1);
+    height: 0;
+    position: relative;
+    z-index: 0;
+    top: -123px;
+    left: -409px;
+  }
+
+  .topSectionGridMobile img {
+    transform: scale(1, 1);
+  }
+
+  .yumeLabsMainHeadingLeft h1:nth-of-type(2) {
+    display: block;
+    margin-top: 14px;
+    font-size: 46px;
+    line-height: 55px;
+    max-width: 70%;
+  }
+
+  .yumeLabsMainHeadingLeft h1:nth-of-type(1) {
+    display: none;
+  }
+
+  .yumeLabsMainHeadingLeft span:nth-of-type(2) {
+    display: block;
+    max-width: 147px;
+    font-size: 20px;
+    font-family: "DM Serif Display", serif;
+  }
+
+  .yumeLabsMainHeadingLeft span:nth-of-type(1) {
+    display: none;
+  }
+
+  .yumeLabsMainHeadingRight p:nth-of-type(2) {
+    margin-top: 52px;
+    display: block;
+    max-width: 90%;
+    color: #696969;
+  }
+
+  .yumeLabsMainHeadingRight p:nth-of-type(1) {
+    display: none;
+  }
+
+  .background-gradient {
+    top: 100px;
+    right: -338px;
+    transform: rotate(-362deg);
+    width: 780px;
+    height: 248px;
+  }
+}
+
+.heroInsightsContainer {
+  padding: 32px 9.5%;
+}
+
+.heroInsightsBgImage {
+  width: 100%;
+  height: 500px;
+  background-image: url("../../public/images/png/theArt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  border-radius: 1rem;
+}
+
+.heroImageText {
+  max-width: 380px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 9.5%;
+}
+
+.heroImageText h6,
+.heroImageText p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.heroImageText p {
+  margin-top: 1rem;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroInsightsContainer {
+    padding: 0;
+  }
+
+  .heroInsightsBgImage {
+    height: 26rem;
+    background-position: 75% 100%;
+    border-radius: 0rem;
+  }
+
+  .heroImageText {
+    max-width: 16.5rem;
+  }
+
+  .heroImageText h6,
+  .heroImageText p {
+    font-size: 16px;
+  }
+}

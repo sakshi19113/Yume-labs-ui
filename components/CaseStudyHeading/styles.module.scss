@@ -1,0 +1,142 @@
+.productContainer {
+  padding: 0px 9.5% 130px;
+}
+
+.topSection {
+  position: relative;
+  overflow: hidden;
+  padding: 96px 9.5% 108px;
+}
+
+.topSectionHeading span:nth-child(2) {
+  display: none;
+}
+
+.homepageHeadingGrid {
+  filter: brightness(0.1);
+  height: 0;
+  position: absolute;
+  z-index: 0;
+  margin-top: -78px;
+  margin-left: 178px;
+  
+  .yumeLabsGridImage {
+    height: 350px;
+    width: 620px;
+    transform: scale(2, 1.05);
+    opacity: 0.4;
+  }
+}
+
+.topSectionGridMobile {
+  display: none;
+}
+
+.topSectionHeading span {
+  background-color: #253f9c;
+  color: white;
+  padding: 0.2rem 1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+
+.topSectionHeading h2 {
+  font-size: 60px;
+  font-weight: bold;
+  max-width: 25rem;
+  line-height: 71px;
+  margin-top: 16px;
+}
+
+.topSectionHeading p:nth-of-type(1) {
+  color: #7b7b7b;
+  font-family: Roboto;
+  max-width: 59rem;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 17px;
+  opacity: 0.8;
+}
+
+.topSectionHeading p:nth-of-type(2) {
+  display: none;
+}
+
+.productContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  margin-right: 200px;
+}
+
+.serviceText {
+  font: 600 18px/27px Poppins;
+  color: #253f9c;
+}
+
+.productText {
+  font: 600 32px/43px Poppins;
+  color: #0b1226;
+}
+
+@media screen and (max-width: 768px) {
+  .homepageHeadingGrid {
+    display: none;
+  }
+
+  .topSectionHeading span:nth-child(1) {
+    display: none;
+  }
+
+  .topSectionHeading span:nth-child(2) {
+    display: inline;
+  }
+  
+  .topSectionGridMobile {
+    display: block;
+    filter: brightness(0.1);
+    height: 0;
+    position: relative;
+    z-index: 0;
+    top: -108px;
+    left: -267px;
+  }
+
+  .topSectionGridMobile img {
+    transform: scale(1.8, 1);
+    opacity: 0.6;
+  }
+
+  .topSectionHeading h2 {
+    font-size: 46px;
+    max-width: 20rem;
+    line-height: 56px;
+    margin-top: 12px;
+  }
+
+  .topSectionHeading p:nth-of-type(2) {
+    display: block;
+    color: #7b7b7b;
+    font-family: Roboto;
+    max-width: 18rem;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 45px;
+    opacity: 0.8;
+    line-height: 25px;
+  }
+
+  .topSectionHeading p:nth-of-type(1) {
+    display: none;
+  }
+
+  .productContainer {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

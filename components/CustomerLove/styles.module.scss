@@ -1,0 +1,244 @@
+.CustomerLove {
+  padding: 0px 9.5%;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+.design p {
+  color: white;
+  width: 161px;
+  padding: 2px 10px;
+  font-style: italic;
+  background-color: #253f9c;
+  font-size: 20px;
+  font-family: "DM Serif Display", serif;
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  line-height: 22px;
+}
+
+.design h2 {
+  font-size: 47px;
+  color: #272727;
+  font-weight: bolder;
+  line-height: 56px;
+  max-width: 70%;
+  margin-top: 15px;
+}
+
+.customersDetails {
+  display: flex;
+  column-gap: 60px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+.customerDetailsIcon img {
+  width: 65px;
+  height: 50px;
+}
+
+.customerThoughts h3 {
+  max-width: 1000px;
+  font-size: 36px;
+  font-style: italic;
+  font-family: Roboto;
+  font-weight: 500;
+  color: #0b1226ce;
+  opacity: 0.6;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+}
+
+.aboutCustomer {
+  display: flex;
+  gap: 52px;
+  padding: 0 100px;
+}
+
+.customerImage img {
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  margin-top: -125px;
+  margin-left: 50px;
+  border-radius: 50%;
+}
+
+.gradient {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-image: url("../../public/images/png/Ellipse\ 11.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -15px;
+  position: relative;
+  left: -11px;
+}
+
+.manContainer {
+  margin-top: 7px;
+}
+
+.customerName {
+  font-size: 20px;
+  color: #0b1226;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.customerDesignnation {
+  display: block;
+  max-width: 250px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  font-family: Poppins;
+  font-weight: bold;
+  opacity: 0.9;
+  color: #696969;
+  padding: 10px 20px 0 0;
+}
+
+.topSectionGrid {
+  filter: brightness(0.1);
+  height: 0;
+  position: relative;
+  z-index: 0;
+  top: -63px;
+  left: -178px;
+}
+
+.topSectionGrid img {
+  height: 299px;
+  opacity: 0.5;
+}
+
+.paginationBar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 80px 0px;
+}
+
+.horizontalLine {
+  background-color: #ddd;
+  flex: 1;
+  height: 1px;
+  opacity: 0.7;
+}
+
+.paginationBar button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.leftArrowBtn {
+  transform: rotate(-180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 64px;
+  background-color: #b2ccdc63;
+}
+
+.leftArrowImg {
+  transform: rotate(180deg);
+  height: 17px;
+  width: 17px;
+}
+
+.rightArrow {
+  background-color: #0068f5;
+}
+
+.rightArrowImage {
+  height: 17px;
+  width: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .topSectionGrid {
+    display: none;
+  }
+
+  .design p {
+    width: 165px;
+    color: #253f9c;
+    background-color: transparent;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0;
+    justify-content: flex-start;
+  }
+
+  .design h2 {
+    font-size: 33px;
+    line-height: 40px;
+    max-width: 450px;
+    margin-top: 10px;
+  }
+
+  .customersDetails {
+    flex-direction: column;
+    gap: 40px;
+    margin: 80px 0;
+  }
+
+  .customerThoughts h3 {
+    max-width: 290px;
+    font-size: 22px;
+    opacity: 0.55;
+    line-height: 30px;
+  }
+
+  .aboutCustomer {
+    padding: 0;
+    gap: 20px;
+  }
+
+  .customerImage img {
+    padding: 0;
+  }
+
+  .customerImage img {
+    width: 80px;
+    height: 80px;
+    margin-top: -88px;
+    margin-left: 20px;
+  }
+
+  .gradient {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: -25px;
+    top: 15px;
+  }
+
+  .customerDesignnation {
+    padding: 7px 20px 0 0;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .customerName {
+    font-size: 14px;
+    text-wrap: nowrap;
+  }
+
+  .customerDesignnation {
+    padding: 1px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+}

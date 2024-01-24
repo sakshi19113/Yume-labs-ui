@@ -1,0 +1,201 @@
+.parent {
+  padding: 0 9.5%;
+}
+
+.personWithLaptop {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 100px;
+  color: transparent;
+  object-fit: cover;
+  object-position: 90% 20%;
+  border-radius: 10px;
+}
+
+.problemStatementText,
+.projectScopeText {
+  display: flex;
+  column-gap: 18%;
+}
+
+.problemStatementText h3,
+.projectScopeText h3 {
+  font-size: 33px;
+  color: #050505;
+  flex-basis: 18%;
+  max-width: 200px;
+  line-height: 40px;
+}
+
+.problemStatementText p,
+.projectScopeText p {
+  font-size: 19.5px;
+  font-family: Roboto;
+  color: #7b7b7b;
+  flex-basis: 80%;
+  font-weight: 600;
+  opacity: 0.8;
+  line-height: 27px;
+}
+
+.combiner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 120px;
+}
+
+.showingStratagyLaptop {
+  width: 100%;
+  height: 775px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  object-fit: cover;
+}
+
+.stratagyAndPlanTextAndDiscription {
+  display: flex;
+  column-gap: 14%;
+  padding: 0 9.5%;
+}
+
+.stratagyAndPlanText {
+  flex-basis: 20%;
+  font-size: 28px;
+  color: #050505;
+  max-width: 250px;
+  line-height: 35px;
+}
+
+.discription {
+  flex-basis: 70%;
+  font-family: Roboto;
+  font-size: 19.5px;
+  color: #7b7b7b;
+  font-weight: 600;
+  opacity: 0.8;
+  line-height: 27px;
+}
+
+.discription span {
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.productDesign__yumeLabs__images {
+  padding: 100px 9.5%;
+}
+
+.productDesign__yumeLabs__imagesTop {
+  display: flex;
+  gap: 10px;
+}
+
+.productDesign__yumeLabs__imagesTopL,
+.productDesign__yumeLabs__imagesTopR {
+  flex-basis: 50%;
+}
+
+.productDesign__yumeLabs__imagesTopL img,
+.productDesign__yumeLabs__imagesTopR img {
+  height: 450px;
+  width: 100%;
+}
+
+.productDesign__yumeLabs__imagesBottom {
+  position: relative;
+}
+
+.Radial__Background {
+  width: 100%;
+  height: 100%;
+  margin-top: 8px;
+}
+
+.insideRadial__Background {
+  width: 70%;
+  background-color: #fff;
+  height: 80%;
+  position: absolute;
+  bottom: 5px;
+  right: 80px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.insideRadial__BackgroundTwo {
+  width: 70%;
+  background-color: #fff;
+  height: 60%;
+  position: absolute;
+  bottom: 5px;
+  right: 230px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  box-shadow: 1px -1px 12px #e3e0e0;
+}
+
+@media screen and (max-width: 768px) {
+  .combiner {
+    row-gap: 60px;
+  }
+
+  .problemStatementText {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .problemStatementText p,
+  .projectScopeText p,
+  .discription {
+    margin-right: 60px;
+  }
+
+  .projectScopeText {
+    flex-direction: column;
+  }
+
+  .projectScopeText p {
+    margin-top: 20px;
+  }
+
+  .stratagyAndPlanTextAndDiscription {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .productDesign__yumeLabs__imagesTop {
+    flex-direction: column;
+  }
+
+  .productDesign__yumeLabs__imagesTopL img,
+  .productDesign__yumeLabs__imagesTopR img {
+    height: 300px;
+  }
+
+  .productDesign__yumeLabs__imagesBottom {
+    height: 600px;
+  }
+
+  .Radial__Background {
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .insideRadial__Background {
+    width: 68%;
+    height: 55%;
+    right: 1px;
+    top: 100px;
+    border-top-right-radius: 0;
+  }
+
+  .insideRadial__BackgroundTwo {
+    width: 90%;
+    height: 40%;
+    right: 1px;
+    bottom: 100px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 8px;
+  }
+}

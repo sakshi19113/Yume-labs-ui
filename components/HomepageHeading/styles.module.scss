@@ -1,0 +1,136 @@
+.yumeLabsMainHeadingLeft {
+  flex: 55% 1;
+}
+
+.yumeLabsMainHeadingLeft span {
+  display: block;
+  background-color: #253f9c;
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-style: italic;
+  font-size: 24px;
+  max-width: 315px;
+  text-align: center;
+  padding: 2px 0px;
+  font-weight: 500;
+  margin-top: -12px;
+}
+
+.yumeLabsMainHeadingLeft span::first-letter {
+  text-transform: lowercase;
+}
+
+.gridContaint {
+  display: flex;
+  gap: 10%;
+}
+
+.yumeLabsMainHeadingRight p {
+  font-size: 20px;
+  color: #0a1226;
+  font-family: Roboto;
+  margin-top: 12px;
+  font-weight: bolder;
+  line-height: 28px;
+}
+
+.yumeLabsMainHeading {
+  padding: 100px 9.5%;
+  margin-top: 50px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.topSectionGrid {
+  filter: brightness(0.1);
+  height: 0;
+  position: relative;
+  z-index: 0;
+  top: -82px;
+  left: -206px;
+}
+
+.topSectionGrid img {
+  height: 299px;
+  transform: scale(0.96, 1.3);
+  opacity: 0.5;
+}
+
+.yumeLabsMainHeadingLeft p {
+  margin-bottom: 39px;
+  font-size: 80px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  line-height: 77px;
+  font-family: "Poppins", sans-serif;
+}
+
+.yumeLabsMainHeadingRight {
+  flex: 35% 1;
+}
+
+@media screen and (max-width: 768px) {
+  .yumeLabsMainHeading {
+    margin-top: 1px;
+    padding-top: 82px;
+  }
+
+  .yumeLabsMainHeadingLeft p {
+    margin-bottom: 39px;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 62px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .topSectionGrid {
+    top: -40px;
+    left: -205px;
+  }
+  
+  .gridContaint {
+    flex-direction: column;
+  }
+
+  .topSectionGrid img {
+    height: 299px;
+    transform: scale(0.96, 1);
+  }
+
+  .yumeLabsMainHeadingLeft span {
+    max-width: 230px;
+    font-size: 18px;
+    position: relative;
+    top: -12px;
+    left: 2px;
+    margin-bottom: 49px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+  }
+
+  .yumeLabsMainHeadingLeft span::first-letter {
+    text-transform: uppercase;
+  }
+
+  .yumeLabsMainHeadingRight p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .yumeLabsMainHeadingLeft h1 {
+    font-size: 46px;
+    margin-top: 5px;
+    line-height: 59px;
+    margin-bottom: 43px;
+  }
+
+  .yumeLabsMainHeadingRightPara {
+    margin-top: 0px;
+  }
+
+  .yumeLabsMainHeadingRightPara br{
+    display: none;
+  }
+}
